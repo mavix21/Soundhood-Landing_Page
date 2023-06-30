@@ -1,0 +1,31 @@
+.key-features > * + * {
+  margin-top: 5rem;
+}
+
+.card-key-feature {
+  max-width: 40ch;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.card-key-feature > * {
+  margin-top: 1em;
+}
+
+.card-key-feature__paragraph {
+  color: var(--text-clr);
+}
+
+.socials {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
